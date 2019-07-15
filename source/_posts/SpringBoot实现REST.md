@@ -3,8 +3,6 @@ title: SpringBoot实现RESTAPI
 date: 2017-10-25 17:28:09
 tags: 
 	- Java	
-	- Spring
-	- Rest
 comments: true
 ---
 >如题，本文讲述如何使用Springboot实现restapi,这里感谢开源社区的作者@简单的土豆，和他的源码[https://github.com/Fan4J/spring-boot-api-project-seed.git](https://github.com/Fan4J/spring-boot-api-project-seed.git)
