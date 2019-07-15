@@ -2,3 +2,5 @@ public/*
 .idea/*
 .DS_Store
 db.json
+./db.json
+.deploy_git/
