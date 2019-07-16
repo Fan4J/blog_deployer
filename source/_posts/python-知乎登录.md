@@ -94,5 +94,5 @@ def login():
 ## 3.总结
 写知乎登录，主要也是练练手，觉得挺有意思，后面可以尝试用phantomjs+selenium模拟下登录爬取，有了登录cookie之后，也可以爬一下知乎的内容，应该有很多有趣的内容，后续会继续更新的，谢谢关注~
 github上我也上传了代码，欢迎大家点评，学习。
-[源码地址](https://github.com/Fan4J/Spiders-of-frequently-used-website/tree/master/zhihuLogin)
-[重塑自我](https://fan4j.github.io/)
+[源码地址](https://github.com/j4fan/Spiders-of-frequently-used-website/tree/master/zhihuLogin)
+[重塑自我](https://j4fan.github.io/)

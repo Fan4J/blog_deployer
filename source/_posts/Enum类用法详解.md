@@ -191,4 +191,4 @@ public enum Color implements Behaviour{
 ```
 ## 总结
 enum枚举类在项目中应用还是挺多的，其实它可以用一个常量类代替，常量类里面都是private static final类型的静态变量，但是容易出现有的朋友调用没有的变量，或者传入一个非主流的code，导致特殊的异常，enum还是有用武之地的。弄完这些，继续去研究restapi了，撤~
-[个人博客](https://fan4j.github.io/)欢迎访问
+[个人博客](https://j4fan.github.io/)欢迎访问

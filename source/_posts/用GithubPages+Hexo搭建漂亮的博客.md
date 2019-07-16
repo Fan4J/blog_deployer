@@ -6,7 +6,7 @@ tags:
 
 ---
 >一直以来都想自己搭建博客，作为个人生活和技术的记录，终于在前几天开始动手，一天多时间搭建了自己的个人博客，搭建方式：github+hexo（注：没有绑定个人域名，直接通过github提供的个性链接访问），这种方式可能会在速度上由于github本身的一些原因受到影响，存储空间上其实github没有什么限制，大可放心使用。
-本文主要记录搭建的过程以及遇到的一些坑，仅供大家参考。[浏览博客](https://fan4j.github.io/)
+本文主要记录搭建的过程以及遇到的一些坑，仅供大家参考。[浏览博客](https://j4fan.github.io/)
 
 ## 1.准备Github,git,nodejs
 第一步，注册github账号，安装git,nodejs
@@ -51,13 +51,13 @@ http://localhost:4000/
 title: 重塑自我
 subtitle: 当你低头的瞬间，才发现脚下的路
 description: 当你低头的瞬间，才发现脚下的路
-author: Fan4j
+author: j4fan
 language: zh-Hans
 timezone: Asia/Shanghai
 
 deploy:
   type: git
-  repo: git@github.com:Fan4J/fan4j.github.io.git
+  repo: git@github.com:j4fan/j4fan.github.io.git
   branch: master
   
 jsonContent:
@@ -109,7 +109,7 @@ menu:
   
 # SubNav
 subnav:
-  github: "https://github.com/Fan4J"
+  github: "https://github.com/j4fan"
   weibo: "http://weibo.com/2179165162/profile?topnav=1&wvr=6"
   #rss: "#"
   zhihu: "https://www.zhihu.com/people/storm-spirit/activities"
@@ -161,7 +161,7 @@ cd hexo
 npm i hexo-generator-json-content --save
 ```
 ## 5.绑定Github并部署
-GithubPages是指特定命名方式的respository: namespace.github.io,比如我的就是fan4j.github.io
+GithubPages是指特定命名方式的respository: namespace.github.io,比如我的就是j4fan.github.io
 这样命名的仓库会被自动解析为githubpage,只需在hexo的全局配置文件中正确配置，即可简单部署
 ```
 npm install hexo-deployer-git --save
@@ -195,7 +195,7 @@ hexo s == hexo server
 hexo n == hexo new
 ```
 ## 7.代码保存，其他配置
-这时打开github可以看到仓库中已经是前端页面的代码，说明部署完毕，访问地址即可-> https://fan4j.github.io/
+这时打开github可以看到仓库中已经是前端页面的代码，说明部署完毕，访问地址即可-> https://j4fan.github.io/
 同时可以将部署内容保存到新的respository中，可以在多个电脑上进行新文章的发布部署。
 ## 8.结束语
 部署结束，中间可能遇到些坑，浪费了些时间，但是都还是可以通过网上搜索获取答案，总体还是觉得很值的，最后套用某人的话，希望不是三分钟热度，一定要把这个博客坚持下去~

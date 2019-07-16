@@ -6,13 +6,13 @@
 title: 重塑自我
 subtitle: 当你低头的瞬间，才发现脚下的路
 description: 当你低头的瞬间，才发现脚下的路
-author: Fan4j
+author: j4fan
 language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://fan4j.github.io
+url: https://j4fan.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -77,7 +77,7 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:Fan4J/fan4j.github.io.git
+  repo: git@github.com:j4fan/j4fan.github.io.git
   branch: master
 
   jsonContent:

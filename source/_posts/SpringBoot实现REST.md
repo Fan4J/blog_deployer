@@ -5,7 +5,7 @@ tags:
 	- Java	
 comments: true
 ---
->如题，本文讲述如何使用Springboot实现restapi,这里感谢开源社区的作者@简单的土豆，和他的源码[https://github.com/Fan4J/spring-boot-api-project-seed.git](https://github.com/Fan4J/spring-boot-api-project-seed.git)
+>如题，本文讲述如何使用Springboot实现restapi,这里感谢开源社区的作者@简单的土豆，和他的源码[https://github.com/j4fan/spring-boot-api-project-seed.git](https://github.com/j4fan/spring-boot-api-project-seed.git)
 
 ## 1基本配置
 ![项目结构.png](http://upload-images.jianshu.io/upload_images/5834071-d8ba22876750345e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -280,4 +280,4 @@ public class RestTemplateConfig {
 
 ## 4.总结
 以上就是如何用Springboot构建restApi，其实还可以和数据库做很多交互，还有签名认证，session管理等东西，都到后面完善吧。源码地址在最开始就贴了，是个开源的项目，HttpMessageConverter，如何得到json、xml的返回，都需要操作操作。继续努力吧
-[个人博客](https://fan4j.github.io/) 欢迎访问~
+[个人博客](https://j4fan.github.io/) 欢迎访问~
