@@ -79,7 +79,7 @@ events {
 
 接下来是serverblock,如果nginx需要监听多个端口做代理，则可以写多个serverblock
 ```
-    http {
+http {
     server {
     }
 }
